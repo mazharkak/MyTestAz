@@ -1,0 +1,20 @@
+<HTML>
+	<HEAD>
+<TITLE>Account Details </TITLE>
+</HEAD>
+<BODY>
+	<H1> Account Details </H1>
+<TABLE BORDER=2>
+<TR>
+<TH>AccountNo</TH>
+<TH>Customer Name</TH>
+</TR>
+<TR>
+<TD>1001</TD>
+<TD>Jack</TD>
+</TR>
+<TR>
+<TD>1002</TD>
+<TD>Tom</TD>
+</TR>
+</TABLE></BODY></HTML>

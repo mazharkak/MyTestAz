@@ -1,0 +1,24 @@
+<HTML>
+	<HEAD>
+<TITLE>Form </TITLE>
+</HEAD>
+<BODY>
+	<H1> Form Example </H1>
+<FORM NAME='frm_reg' ACTION='abc.jsp' METHOD='get' >
+<TABLE align="center">
+<TR>
+<TH colspan="2">Customer Registration</TH></TR>
+<TR> <TD>Customer Name </TD> <TD><input type="text"></TD></TR>
+<TR> <TD>Password </TD> <TD><input type="password"></TD></TR>
+<TR> <TD>Gender </TD> <TD><input type="radio" name="gender">Male <input  type="radio" name="gender">Female </TD></TR>
+<TR><TD>Address</TD><TD><textarea name="Address" rows="4" column="0"></textarea></TD> 
+</TR>
+<TR><TD>Telephone</TD><TD><input type="text"></TD> </TR>
+<TR><TD>Hobbies</TD><TD><SELECT> NAME="Hobbies">
+<OPTION VALUE="T">Travel</OPTION>
+<OPTION VALUE="R" SELECTED>Reading</OPTION>
+<OPTION VALUE="S">Sleeping</OPTION>
+<OPTION VALUE="W">Walking</OPTION>
+</SELECT></TD></TR>
+<TR><TD COLSPAN="2"><input type="Submit" value="Submit"></TD></TR>
+</TABLE></BODY></HTML>
